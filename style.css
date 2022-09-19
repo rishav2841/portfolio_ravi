@@ -530,6 +530,9 @@ footer .text span a:hover{
 }
 
 /* Responsive Media Query */
+
+
+
 @media (max-width: 1190px) {
   section .content{
     width: 85%;
@@ -605,12 +608,16 @@ footer .text span a:hover{
     color: #4070f4;
   }
   nav .navbar .media-icons{
-    display: none;
+    /* display: none; 
+    display: flex; */
+    margin: 5px 30px
   }
+
   nav .menu-btn,
   .navbar .menu .cancel-btn{
     display: block;
   }
+
   .home .text-two{
     font-size: 65px;
   }
@@ -646,8 +653,6 @@ footer .text span a:hover{
   .contact .text{
     width: 100%;
 }
-
-
 }
 
 @media (max-width: 500px){
@@ -656,10 +661,13 @@ footer .text span a:hover{
   }
   .home .text-three{
     font-size: 33px;
-  }
-  
+  }  
 }
+/* @media (max-width:500px){
+  .navbar .media-icons{
 
+  }
+} */
 
 
 
