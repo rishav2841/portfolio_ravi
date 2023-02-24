@@ -214,13 +214,13 @@ section .title span::after{
   width: 45%;
 }
 .about .left img{
-  height: 400px;
-  width: 400px;
+  height: 550px;
+  width: 450px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 .about-details .right{
-  width: 55%;
+  width: 45%;
 }
 section  .topic{
   color: #0E2431;
@@ -266,8 +266,6 @@ section .button button:hover{
    align-items: center;
   flex-wrap: wrap;
  }
-
-
 
 .block {
 	position: relative;
@@ -356,7 +354,7 @@ section .button button:hover{
 	stroke-width: 4px;
 	stroke-dasharray: 503;
 	stroke-dashoffset: 503;
-	animation-duration: 2s;
+	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-fill-mode: forwards;
 	transition: 2s stroke-dashoffset;
@@ -559,7 +557,7 @@ footer .text span a:hover{
 }
 @media (max-width: 900px) {
   .about .left img{
-    height: 350px;
+    height: 430px;
     width: 350px;
   }
   .skills .skills-details{
